@@ -1,0 +1,73 @@
+.a{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+  }
+  .b{
+      background-color: rgb(15, 117, 234);
+      margin-left: 10px;
+      padding-top: 10px;
+  }
+  .c{
+      background-color: rgb(242, 65, 25);
+      margin-left: 10px;
+      padding-top: 10px;
+  }
+  .d{
+      background-color: rgb(54, 185, 95);
+      margin-left: 10px;
+      padding-top: 10px;
+  }
+  .a2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 20px;
+  }
+  .a1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  *{
+      color: white;
+      text-align: center;
+  }
+  .c10{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    height: 110px;
+    width: 200px;
+    text-align: center;
+  }
+  .b1{
+      background-color: rgb(15, 117, 234);
+      margin-left: 10px;
+      padding-top: 10px;
+      
+  }
+  .c2{
+      background-color: rgb(242, 65, 25);
+      margin-left: 10px;
+      padding-top: 10px;
+      
+  }
+  .d1{
+      background-color: rgb(54, 185, 95);
+      margin-left: 10px;
+      padding-top: 10px;
+  }
+  .c12{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 20px;
+    height: 110px;
+    width: 200px;
+  }
+  .c11{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    height: 80px;
+    width: 200px;
+  }

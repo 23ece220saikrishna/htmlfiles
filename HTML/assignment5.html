@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Button Color Change</title>
+ <style>
+ body {
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ height: 100vh;
+ 
+ }
+ button {
+ padding: 10px 20px;
+ font-size: 16px;
+ cursor: pointer;
+ }
+ </style>
+</head>
+<body>
+ <button id="redButton" onclick="changeColor('red')">Red</button>
+ <button id="greenButton" onclick="changeColor('green')">Green</button>
+ <button id="blueButton" onclick="changeColor('blue')">Blue</button>
+ <script>
+ function changeColor(color) {
+ document.body.style.backgroundColor = color;
+ }
+ </script>
+</body>
+</html>
